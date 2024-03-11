@@ -293,14 +293,9 @@ const Footer = () => {
                 Ideas, problems, violations ? Reach out to us !
               </p>
               <div className="d-flex justify-content-center rounded mx-auto">
-                <button
-                  onClick={handleReportModalOpen}
-                  className=" btn-report d-flex align-items-center text-black"
-                >
-                  <span>
-                    Contact Us <i className="fa-solid fa-bug"></i>
-                  </span>
-                </button>
+                <Button onClick={handleReportModalOpen} className="footer_cta">
+                  Contact Us <i className="fa-solid fa-bug"></i>
+                </Button>
               </div>
             </div>
           </div>
